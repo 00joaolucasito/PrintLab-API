@@ -7,7 +7,6 @@ const server = express();
 server.use(cors());
 
 
-
 server.get('/ping',(rep, resp) => {
     resp.send('pong');
 })
