@@ -95,3 +95,11 @@ id_pedido_produto				int primary key auto_increment not null,
 id_pedido						int not null,
 id_produto						int not null
 );
+
+
+
+insert into tb_cliente(ds_email, ds_senha)
+values (?,?)
+
+select * from tb_cliente where ds_email = ? and ds_senha = ?
+
